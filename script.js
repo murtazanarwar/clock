@@ -5,7 +5,7 @@ for (var i = 1; i < 60; i++) {
   clockEl.innerHTML += "<div class='diallines'></div>";
   dialLines[i].style.transform = "rotate(" + 6 * i + "deg)";
 }
-
+//check
 function clock() {
       d = new Date(),
       h = d.getHours(),
